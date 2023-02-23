@@ -5,7 +5,13 @@ function TeamCard({ member }) {
   return (
     <div className='rounded-xl bg-card-dark p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 '>
       <div className='relative flex items-end overflow-hidden rounded-xl'>
-        <img src={member.profilePic} alt='Hotel Photo' />
+        <Image
+          className='h-full w-auto'
+          width={400}
+          height={100}
+          src={member.profilePic}
+          alt='Rebel Ape'
+        />
       </div>
 
       <div className='mt-4 p-2 flex justify-between'>
@@ -29,7 +35,7 @@ function TeamCard({ member }) {
             />
           </span>
         </div>
-        <a href={member.twitter} target='_blank'>
+        <a href={member.twitter} target='_blank' rel='noreferrer'>
           <Image
             className='h-14 w-auto ease-in mb-10 hover:transform hover:scale-105 duration-150'
             width={40}

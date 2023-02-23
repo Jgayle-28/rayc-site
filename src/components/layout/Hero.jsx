@@ -74,13 +74,14 @@ function Hero() {
               aria-label='twitter'
               href='https://twitter.com/RebelApeYC'
               target='_blank'
+              rel='noreferrer'
             >
               <Image
                 className='h-16 w-auto ease-in mb-10  hover:transform hover:scale-105 duration-150'
                 width={40}
                 height={40}
                 src='/img/buttons/twitter.svg'
-                alt='discord'
+                alt='twitter'
               />
             </a>
             <a
@@ -88,6 +89,7 @@ function Hero() {
               aria-label='discord'
               href='https://discord.gg/Zpcz3JDZMD'
               target='_blank'
+              rel='noreferrer'
             >
               <Image
                 className='h-16 w-auto ease-in mb-10  hover:transform hover:scale-105 duration-150'

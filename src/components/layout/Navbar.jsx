@@ -61,6 +61,7 @@ function Navbar() {
                 <a
                   href='https://opensea.io/collection/rebelapeyc'
                   target='_blank'
+                  rel='noreferrer'
                   className='relative w-max text-sm pt-2.5 px-2 group text-gray-300 z-10 hover:text-white'
                   aria-current='page'
                 >

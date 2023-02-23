@@ -23,6 +23,7 @@ function Footer() {
                   aria-label='twitter'
                   href='https://twitter.com/RebelApeYC'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <Image
                     className='h-12 w-auto ease-in mb-10  hover:transform hover:scale-105 duration-150'
@@ -37,6 +38,7 @@ function Footer() {
                   aria-label='discord'
                   href='https://discord.gg/Zpcz3JDZMD'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <Image
                     className='h-12 w-auto ease-in mb-10  hover:transform hover:scale-105 duration-150'
