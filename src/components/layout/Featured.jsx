@@ -24,6 +24,7 @@ function Featured() {
           className='text-white duration-150'
           href='https://opensea.io/collection/rebelapeyc'
           target='_blank'
+          rel='noreferrer'
         >
           <Image
             className='h-16 w-auto ease-in mb-10  hover:transform hover:scale-105 duration-150'
