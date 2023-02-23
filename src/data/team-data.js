@@ -24,8 +24,7 @@ export const teamData = [
   {
     name: '/img/team/star-name.svg',
     profilePic: '/img/team/star.png',
-    twitter:
-      'https://twitter.com/Jaggy_Mc_Nugget?t=JyI5qEOOMZbh-w_lwliuqw&s=33',
+    twitter: 'https://twitter.com/stardam6',
     title: '/img/team/star-title.svg',
     alt: 'Jaggy',
   },
