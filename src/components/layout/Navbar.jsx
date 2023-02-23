@@ -29,7 +29,7 @@ function Navbar() {
 
                 <a
                   href='#team'
-                  className='relative w-max text-sm pt-2.5 px-2 group text-gray-300 z-10 hover:text-white'
+                  className='hidden md:block relative w-max text-sm pt-2.5 px-2 group text-gray-300 z-10 hover:text-white'
                   aria-current='page'
                 >
                   Team
@@ -48,12 +48,12 @@ function Navbar() {
                 />
                 <a
                   href='#mission'
-                  className='relative w-max text-sm pt-2.5 px-2 group text-gray-300 z-10 hover:text-white'
+                  className='hidden md:block relative w-max text-sm pt-2.5 px-2 group text-gray-300 z-10 hover:text-white'
                   aria-current='page'
                 >
                   Mission
                   <span
-                    className={`absolute -z-10 left-0 -bottom-1 w-full transition-all bg-primary group-hover:h-1 h-0
+                    className={` absolute -z-10 left-0 -bottom-1 w-full transition-all bg-primary group-hover:h-1 h-0
                     `}
                   ></span>
                 </a>

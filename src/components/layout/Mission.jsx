@@ -25,27 +25,27 @@ function Mission() {
           />
         </div>
 
-        <div className='lg:w-1/2 lg:mt-0 lg:mx-6 '>
-          <p className='pb-3'>
+        <div className='lg:w-1/2 lg:mt-0 lg:mx-6 text-gray-300'>
+          <p className='pb-3 text-gray-300'>
             The modern rebel is someone who challenges the status quo, questions
             authority, and demands change.
           </p>
 
-          <p className='py-3'>
+          <p className='py-3 text-gray-300'>
             They are a reminder that change is possible, and that the power to
             effect change lies within each of us.
           </p>
 
-          <p className='py-3'>
+          <p className='py-3 text-gray-300'>
             We aim to create unique and compelling digital artworks that inspire
             and captivate & to remind you that you have a rebel in you.
           </p>
 
-          <p className='py-3'>
+          <p className='py-3 text-gray-300'>
             We have a very exciting road map for our rebels that includes
           </p>
           <ul>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -56,7 +56,7 @@ function Mission() {
               />
               Web store that our rebels can access and buy merch.
             </li>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -67,7 +67,7 @@ function Mission() {
               />
               web3 clubhouse for members
             </li>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -78,7 +78,7 @@ function Mission() {
               />
               A Rebel clubhouse
             </li>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -89,7 +89,7 @@ function Mission() {
               />
               Web3 and real-life events for only members +1.
             </li>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -100,7 +100,7 @@ function Mission() {
               />
               Spaces in Twitter, German, Italy and English-speaking.
             </li>
-            <li>
+            <li className='text-gray-300'>
               {' '}
               <Image
                 alt='connect with us'
@@ -112,7 +112,7 @@ function Mission() {
               web3 game
             </li>
           </ul>
-          <p className='py-3 text-gray-500 dark:text-gray-300'>
+          <p className='py-3 text-gray-300'>
             Choose your Ape, let's grow together and make the world better.
           </p>
 
@@ -120,7 +120,7 @@ function Mission() {
             href='https://opensea.io/collection/rebelapeyc'
             target='_blank'
             rel='noreferrer'
-            className='inline-block mt-2 text-primary text-primary hover:text-primary hover:text-blue-400'
+            className='inline-block mt-2 text-primary hover:text-primary'
           >
             Real rebels break the rules, so we have to mixed M1 & M2. To the
             moon rebels!
