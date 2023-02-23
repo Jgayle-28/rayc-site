@@ -120,7 +120,7 @@ function Mission() {
             href='https://opensea.io/collection/rebelapeyc'
             target='_blank'
             rel='noreferrer'
-            className='inline-block mt-2 text-blue-500 text-primary hover:text-primary hover:text-blue-400'
+            className='inline-block mt-2 text-primary text-primary hover:text-primary hover:text-blue-400'
           >
             Real rebels break the rules, so we have to mixed M1 & M2. To the
             moon rebels!

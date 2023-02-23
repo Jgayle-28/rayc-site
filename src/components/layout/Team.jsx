@@ -15,7 +15,7 @@ function Team() {
           alt='meet rebel team'
         />
       </div>
-      <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 '>
+      <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3'>
         {teamData && teamData.map((m, i) => <TeamCard key={i} member={m} />)}
       </div>
     </div>
