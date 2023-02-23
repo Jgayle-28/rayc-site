@@ -5,6 +5,7 @@
 // }
 
 import '../styles/globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 function SafeHydrate({ children }) {
   return (
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <SafeHydrate>
       <Component {...pageProps} />
+      <Analytics />
     </SafeHydrate>
   )
 }
