@@ -87,7 +87,7 @@ function Mission() {
                 height={40}
                 src='img/bullet.svg'
               />
-              Web3 and real-life events for only members +1.
+              Web3 and real-life events for only members.
             </li>
             <li className='text-gray-300'>
               {' '}
