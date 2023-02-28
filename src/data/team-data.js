@@ -36,7 +36,7 @@ export const teamData = [
     alt: 'Rosella',
   },
   {
-    name: '/img/team/myagi-name.svg',
+    name: '/img/team/miyagi-name.svg',
     profilePic: '/img/team/myagi.png',
     twitter: 'https://twitter.com/mr_miyagiape',
     title: '/img/team/myagi-text.svg',
