@@ -4,6 +4,7 @@
 //   return <Component {...pageProps} />
 // }
 
+import { useState, useEffect } from 'react'
 import '../styles/globals.css'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -15,13 +16,21 @@ function SafeHydrate({ children }) {
   )
 }
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <SafeHydrate>
-      <Component {...pageProps} />
-      <Analytics />
-    </SafeHydrate>
-  )
+function MyApp({ Component, pageProps, router }) {
+  const [domLoaded, setDomLoaded] = useState(false)
+
+  useEffect(() => {
+    // setTimeout(() => setDomLoaded(true), 2000)
+    setDomLoaded(true)
+  }, [])
+
+  if (domLoaded)
+    return (
+      <SafeHydrate>
+        <Component {...pageProps} key={router.route} />
+        <Analytics />
+      </SafeHydrate>
+    )
 }
 
 export default MyApp

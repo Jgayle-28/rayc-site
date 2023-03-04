@@ -1,11 +1,36 @@
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
 import ReactPlayer from 'react-player'
+import { motion } from 'framer-motion'
 
 function Raffle() {
   return (
     <div className='pt-20 pb-20  w-full'>
-      <div className='flex flex-col items-center'>
+      <motion.div
+        className='flex flex-col items-center'
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+        variants={{
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+              y: {
+                ease: 'easeOut',
+                duration: 0.7,
+                delay: 0.2,
+              },
+              opacity: {
+                duration: 0.7,
+                delay: 0.2,
+              },
+              type: 'spring',
+            },
+          },
+          hidden: { opacity: 0, y: 40 },
+        }}
+      >
         <Image
           className='h-16 w-auto hover:-rotate-3 ease-in duration-100 mb-10'
           width={40}
@@ -14,13 +39,59 @@ function Raffle() {
           alt='discord'
         />
 
-        <p className='text-lg md:text-xl text-primary font-medium mb-6 text-center'>
+        <motion.p
+          className='text-lg md:text-xl text-primary font-medium mb-6 text-center'
+          initial='hidden'
+          whileInView='visible'
+          viewport={{ once: true }}
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: {
+                y: {
+                  ease: 'easeOut',
+                  duration: 0.7,
+                  delay: 0.2,
+                },
+                opacity: {
+                  duration: 0.7,
+                  delay: 0.2,
+                },
+                type: 'spring',
+              },
+            },
+            hidden: { opacity: 0, y: 40 },
+          }}
+        >
           Become a Rebel and enter for a chance to win a lambo.
-        </p>
-      </div>
-      <div
+        </motion.p>
+      </motion.div>
+      <motion.div
         className='w-full bg-cover bg-center py-20'
         style={{ backgroundImage: `url('/img/backgrounds/raffle.svg')` }}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+        variants={{
+          hidden: { opacity: 0, y: 0 },
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+              y: {
+                ease: 'easeOut',
+                duration: 0.7,
+                delay: 0.6,
+              },
+              opacity: {
+                duration: 0.7,
+                delay: 0.6,
+              },
+              type: 'spring',
+            },
+          },
+        }}
       >
         <div className='w-full md:w-1/2 mx-auto'>
           <div className='player-wrapper'>
@@ -49,7 +120,7 @@ function Raffle() {
             />
           </a>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

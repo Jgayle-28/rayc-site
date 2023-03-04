@@ -28,13 +28,13 @@ export const teamData = [
     title: '/img/team/star-title.svg',
     alt: 'Star',
   },
-  {
-    name: '/img/team/rosella-name.svg',
-    profilePic: '/img/team/rosella.png',
-    twitter: 'https://twitter.com/Rossella_Ape',
-    title: '/img/team/star-title.svg',
-    alt: 'Rosella',
-  },
+  // {
+  //   name: '/img/team/rosella-name.svg',
+  //   profilePic: '/img/team/rosella.png',
+  //   twitter: 'https://twitter.com/Rossella_Ape',
+  //   title: '/img/team/star-title.svg',
+  //   alt: 'Rosella',
+  // },
   {
     name: '/img/team/miyagi-name.svg',
     profilePic: '/img/team/myagi.png',
