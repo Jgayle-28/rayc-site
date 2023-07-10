@@ -22,7 +22,7 @@ export default function Home() {
         <Hero />
         <Featured />
         <Mission />
-        <Raffle />
+        {/* <Raffle /> */}
         <Team />
       </div>
       <Footer />
