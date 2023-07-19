@@ -21,13 +21,13 @@ export const teamData = [
     title: '/img/team/jag-text.svg',
     alt: 'Jaggy',
   },
-  {
-    name: '/img/team/star-name.svg',
-    profilePic: '/img/team/star.png',
-    twitter: 'https://twitter.com/stardam6',
-    title: '/img/team/star-title.svg',
-    alt: 'Star',
-  },
+  // {
+  //   name: '/img/team/star-name.svg',
+  //   profilePic: '/img/team/star.png',
+  //   twitter: 'https://twitter.com/stardam6',
+  //   title: '/img/team/star-title.svg',
+  //   alt: 'Star',
+  // },
   // {
   //   name: '/img/team/rosella-name.svg',
   //   profilePic: '/img/team/rosella.png',
